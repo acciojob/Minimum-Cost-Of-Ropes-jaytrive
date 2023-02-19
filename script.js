@@ -1,11 +1,11 @@
 //your code here
-function CostRope(event) {
-	event.preventDefault();
+function CostRope() {
+	//event.preventDefault();
 	var firstinput=document.querySelector("input").value;
     var arr=firstinput.split(",");
     arr.sort(function (a, b) {
     return a - b;
-  });
+	});
 
 var cost=0;
 while(arr.length>1){
