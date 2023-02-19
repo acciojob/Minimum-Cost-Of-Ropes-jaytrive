@@ -17,5 +17,5 @@ function CostRope(event) {
 			return a-b
 		})
 	}
-	document.getElementById('result').innerText=cost
+	document.getElementById('result').textContent=cost
 }
